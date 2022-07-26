@@ -1,0 +1,42 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Jul 15 12:50:59 2022
+
+@author: JORGE MOROCHO
+"""
+matrix=[[0]*4]*4
+matrix[0][0]=5
+matrix[0][1]=7
+matrix[0][2]=10
+matrix[0][3]=25
+matrix[0][4]=30
+
+
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Jul 15 12:52:42 2022
+
+
+"""
+
+filas=5
+columnas=5
+matriz=[]
+for i in range(filas):
+    matriz.append([0])
+    for j in range(columnas):
+        matriz[i].append(0)
+matriz[0][0]=90
+
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Jul 15 17:27:12 2022
+
+@author: JORGE MOROCHO
+"""
+import numpy as np
+a=np.array([1, 2, 3])
+print(a)
+b=np.array([1, 2, 3])
+print(b)
+
